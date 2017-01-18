@@ -1,9 +1,7 @@
-//A software PWM library by Dustin hebecker (dustin-hebecker@gmx.de)
+//A software PWM library by Dustin Hebecker (dustin-hebecker@gmx.de)
 //Based on a idea by james@baldengineer.com
 // PINCOUNT needs to be defined like:
 //#define PINCOUNT 3
-
-
 
 #include "swPWM.h" 
 
@@ -34,7 +32,6 @@ typedef struct pwmPins {
 //const int pinCount = 8;
 //const byte pins[pinCount] = {2,3,5,6,9,10,11,12};
  
-
 pwmPin myPWMpins[PINCOUNT];
  
 // function to "setup" the sw pwm pin states
